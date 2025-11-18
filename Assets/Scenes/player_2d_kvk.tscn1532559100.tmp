@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://bis4ebyrsqnuf"]
 
-[ext_resource type="Script" uid="uid://bbchmlh2g1rnt" path="res://Assets/Scripts/player_controller_kvk.gd" id="1_ke7sd"]
+[ext_resource type="Script" uid="uid://beouwfpvytkk8" path="res://Assets/Scripts/character_body_controller_2d.gd" id="1_71tnr"]
 [ext_resource type="Texture2D" uid="uid://d2twas6sbh6jg" path="res://Assets/Sprites/player.png" id="2_ke7sd"]
 [ext_resource type="Script" uid="uid://cef6yv2ur6cvo" path="res://Assets/Scripts/player_animator_kvk.gd" id="2_ofhy1"]
 
@@ -102,9 +102,9 @@ height = 14.0
 [node name="Player2d" type="Node2D"]
 
 [node name="Player" type="CharacterBody2D" parent="."]
-script = ExtResource("1_ke7sd")
+script = ExtResource("1_71tnr")
 speed = 5.0
-jump_power = 12.0
+jump_power = 8.0
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 offset = Vector2(0, -15)
